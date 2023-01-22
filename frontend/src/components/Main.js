@@ -24,7 +24,7 @@ const Main = () => {
   return (
     <div>
       {loading ? (
-        <h1>loading...</h1>
+        <h1 className="loading">Loading...</h1>
       ) : (
         data && (
           <div className="main">
