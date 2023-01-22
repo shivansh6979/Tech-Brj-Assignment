@@ -1,0 +1,7 @@
+.footer {
+  background: linear-gradient(to right, #f7f1bf, #bf0f32);
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

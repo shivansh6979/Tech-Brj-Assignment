@@ -1,0 +1,58 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 15rem;
+  padding: 18px;
+  background: linear-gradient(to right, #f7f1bf, #bf0f32);
+}
+
+.logo {
+  width: 26% !important;
+}
+
+.navlinks {
+  display: flex;
+  gap: 3.5rem;
+}
+.navlinks span {
+  font-size: large;
+  font-weight: 700;
+}
+
+/* Laptops and under*/
+
+@media screen and (max-width: 768px) {
+  .navlinks span {
+    font-size: medium;
+    width: 85px;
+  }
+  .navlinks {
+    gap: 0.5rem;
+  }
+
+  .header {
+    gap: 5rem;
+  }
+}
+
+/* Mobiles and under */
+
+@media screen and (max-width: 481px) {
+  .header {
+    gap: 1.5rem;
+  }
+
+  .logo {
+    width: 46% !important;
+  }
+
+  .navlinks {
+    gap: 0 px;
+  }
+
+  .navlinks span {
+    font-size: small;
+    width: 66px;
+  }
+}

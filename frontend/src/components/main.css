@@ -1,0 +1,37 @@
+.main {
+  min-height: 75vh;
+  padding: 15 px;
+  background: linear-gradient(to left, rgb(226, 226, 131), white);
+}
+
+.data h1 {
+  text-align: left;
+  margin-left: 5%;
+}
+
+.data hr {
+  height: 2px;
+  margin-bottom: 12px;
+  background-color: black;
+  width: 91%;
+}
+
+.subcategoryname {
+  text-align: left;
+  margin-left: 5%;
+  display: block;
+  font-weight: 700;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  font-size: xx-large;
+}
+
+/* Tablets and under */
+
+@media screen and (max-width: 768px) {
+  .subcategoryname {
+    font-size: x-large;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+}

@@ -1,0 +1,76 @@
+.cakeimg {
+  width: 19vw;
+  height: 29.5vh;
+  border-radius: 2vw;
+}
+
+.subcategory {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.tile {
+  width: 28%;
+  height: 46vh;
+  background: linear-gradient(to right, white, whitesmoke);
+  padding: 6px;
+  border-radius: 2vw;
+  margin-bottom: 10px;
+}
+
+.veg,
+.non {
+  width: 25px;
+  height: 25px;
+}
+
+.flexing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.tiledata {
+  margin-top: 14px;
+
+  font-weight: bold;
+  display: block;
+  font-size: large;
+}
+
+/* TABLETS AND UNDER */
+@media screen and (max-width: 768px) {
+  .tile {
+    width: 37%;
+    height: 40vh;
+  }
+
+  .cakeimg {
+    width: 95%;
+    height: 22vh;
+    border-radius: 2vw;
+  }
+
+  .veg,
+  .non {
+    width: 20px;
+    height: 20px;
+    margin-left: -4px;
+  }
+
+  .flexing {
+    gap: 2px;
+  }
+}
+
+/* Mobiles and under */
+@media screen and (max-width: 481px) {
+  .tile {
+    height: 42vh;
+
+    width: 59%;
+  }
+}
