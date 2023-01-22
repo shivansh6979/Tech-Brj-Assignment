@@ -70,7 +70,6 @@
 @media screen and (max-width: 481px) {
   .tile {
     height: 42vh;
-
     width: 59%;
   }
 }

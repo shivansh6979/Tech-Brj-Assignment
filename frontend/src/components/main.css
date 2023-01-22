@@ -31,7 +31,7 @@
 @media screen and (max-width: 768px) {
   .subcategoryname {
     font-size: x-large;
-    margin-top: 5px;
+    /* margin-top: 5px; */
     margin-bottom: 5px;
   }
 }
